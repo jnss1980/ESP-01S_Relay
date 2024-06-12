@@ -61,7 +61,7 @@ ESP-01S-Relay  Base AP And Wifi
  ampy --port /dev/ttyUSB0 put xtools.py xtools.py
  ```
 
- 即可使用Thonny idea 開發
- 
+ 即可使用Thonny idea 開發 
+ https://thonny.org/
 
  
