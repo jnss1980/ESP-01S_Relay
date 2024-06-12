@@ -8,7 +8,7 @@ ESP-01S-Relay  Base AP And Wifi
  3.連線 192.168.4.1 設定WIFI SSID & PassWord 。
  4.關閉AP 啟動WIFI 連線。
 
- 使用ESP-01s USB轉 ESP8266 WIFI 串口模組 刷入程式，需安裝 CH341SER_LINUX 驅動。
+ 使用ESP-01s USB轉 ESP8266 WIFI 串口模組 刷入程式，需安裝 CH341SER_LINUX 驅動。 
  cd CH341SER_LINUX
  sudo make clean
  sudo make 
