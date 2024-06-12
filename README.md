@@ -2,11 +2,11 @@
 ESP-01S-Relay  Base AP And Wifi
  use xtools.py  [from https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools_orig.py](https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools.py)
 
- ESP-01S 寫入Micropython 程式 動作步驟
- 1.啟動後讀取config.py 連線WIFI。
- 2.連線失敗啟動AP，站台IP 192.168.4.1。
- 3.連線 192.168.4.1 設定WIFI SSID & PassWord 。
- 4.關閉AP 啟動WIFI 連線。
+ ESP-01S 寫入Micropython 程式 動作步驟 
+ 1.啟動後讀取config.py 連線WIFI。 
+ 2.連線失敗啟動AP，站台IP 192.168.4.1。 
+ 3.連線 192.168.4.1 設定WIFI SSID & PassWord 。 
+ 4.關閉AP 啟動WIFI 連線。 
 
  使用ESP-01s USB轉 ESP8266 WIFI 串口模組 刷入程式，需安裝 CH341SER_LINUX 驅動。  
  https://github.com/juliagoda/CH341SER
