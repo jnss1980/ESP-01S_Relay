@@ -9,6 +9,7 @@ ESP-01S-Relay  Base AP And Wifi
  4.關閉AP 啟動WIFI 連線。
 
  使用ESP-01s USB轉 ESP8266 WIFI 串口模組 刷入程式，需安裝 CH341SER_LINUX 驅動。 
+ https://github.com/juliagoda/CH341SER
  ```
  cd CH341SER_LINUX
  sudo make clean
