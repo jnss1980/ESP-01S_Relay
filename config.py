@@ -1,0 +1,5 @@
+SSID=""
+PASSWORD=""
+homeassip=""
+homeassid=""
+homeasspwd=""
