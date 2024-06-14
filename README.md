@@ -28,6 +28,11 @@ ESP-01S-Relay  Base AP And Wifi
  pip3 install esptool
  ```
 
+ 清除 ESP-01S 現有 固件
+ ```
+ esptool --port /dev/ttyUSB0  erase_flash
+ ```
+
  檢測ESP-01S 閃存大小
  ```
  esptool.py --port /dev/ttyUSB1 flash_id
@@ -49,6 +54,15 @@ ESP-01S-Relay  Base AP And Wifi
  刷bin ESP8266_GENERIC-20220618-v1.19.1.bin
  ```
  esptool.py --port /dev/ttyUSB1 --baud 115200 write_flash --flash_size=detect 0 ESP8266_GENERIC-FLASH_1M-20240222-v1.22.2.bin
+ ```
+
+ windows
+ ```
+ 清除 ESP-01S
+ esptool --port COM8 --baud 115200 erase_flash
+
+ 輸入 ESP8266_GENERIC-20220618-v1.19.1.bin
+ esptool.py --port COM8 --baud 115200 write_flash --flash_size=detect 0 ESP8266_GENERIC-20220618-v1.19.1.bin
  ```
 
  上傳檔案至ESP-01S 使用ampy 先安裝 pip install ampy  or pip3 install ampy
