@@ -1,6 +1,6 @@
 # ESP-01S_Relay  
 ESP-01S-Relay  Base AP And Wifi  
- use xtools.py  [from https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools_orig.py](https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools.py)
+ use xtools.py from  [ https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools_orig.py] (https://github.com/tony1966/tony1966.github.io/blob/master/test/MicroPython/lib/xtools.py)
 
  ESP-01S 寫入Micropython 程式 動作步驟  
  1.啟動後讀取config.py 連線WIFI。  
